@@ -81,6 +81,10 @@ nav a.nav-link:focus {
   color: var(--teal-500);
 }
 
+.navbar-nav {
+  text-align: right;
+}
+
 /* Footer */
 
 footer {
