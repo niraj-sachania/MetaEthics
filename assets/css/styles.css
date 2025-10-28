@@ -18,6 +18,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -48,11 +49,13 @@ h6 {
 
 /* Header */
 
-header {
+header,
+nav {
   background: #152635; /* slightly darker than primary to emphasize header */
-  position: sticky;
-  top: 0;
-  z-index: 10;
+}
+
+main {
+  margin-top: 56px;
 }
 
 .brand-logo {
