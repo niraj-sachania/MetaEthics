@@ -23,8 +23,7 @@
 body {
   font-family: "Source Sans 3", Arial, sans-serif;
   font-weight: 400;
-  color: #343a40;
-  background-color: #f8f9fa;
+  color: var(--light-50);
 }
 
 /* MetaEthics brand styles */
@@ -45,6 +44,38 @@ h6 {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.5px;
+}
+
+/* Header */
+
+header {
+  background: #152635; /* slightly darker than primary to emphasize header */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand-logo {
+  height: 40px;
+}
+
+.brand-name .meta {
+  color: var(--teal-500);
+}
+.brand-name .ethics {
+  color: var(--yellow-400);
+}
+
+nav a.nav-link {
+  color: var(--light-50);
+}
+nav ul.navbar-nav > .nav-item a.nav-link.active {
+  color: var(--light-50);
+  font-weight: bold;
+}
+nav a.nav-link:hover,
+nav a.nav-link:focus {
+  color: var(--teal-500);
 }
 
 /* Footer */
