@@ -105,6 +105,10 @@ h6 {
   color: var(--teal-500);
 }
 
+.card {
+  border-color: var(--teal-500);
+}
+
 /* Functional */
 
 html {
