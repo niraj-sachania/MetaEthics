@@ -72,6 +72,14 @@ h6 {
   color: var(--blue-900);
 }
 
+section.content {
+  /* styling for the main content of the page */
+  border-radius: 6px;
+  box-shadow: var(--shadow-md);
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .navbar-brand,
 .btn {
   font-family: "Montserrat", Helvetica, sans-serif;
@@ -209,9 +217,6 @@ footer a {
   /* alternate background and styles for emphasizing a section */
   background-color: #181a1b;
   color: var(--light-50);
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 .inverse-style a {
