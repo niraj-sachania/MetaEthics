@@ -9,7 +9,6 @@
   --light-50: #f8f9fa; /* Neutral Light */
   --dark-700: #343a40; /* Neutral Dark */
 
-  --radius: 12px;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.18);
 }
@@ -27,9 +26,35 @@ body {
   color: var(--dark-700);
 }
 
+/* Custom utility classes */
+
+.img-fade-sides {
+  /* blend the image by fading the right and left edges */
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+  margin-left: auto;
+  display: block;
+}
+
 /* MetaEthics brand styles */
 
-h1,
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  color: var(--light-50);
+}
 h2,
 h3,
 h4,
@@ -43,8 +68,30 @@ h6 {
 .navbar-brand,
 .btn {
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.5px;
+  border: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--yellow-400);
+  color: var(--dark-700);
+  transition: filter 0.3s ease;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--teal-500);
+  transition: filter 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  filter: brightness(0.85);
 }
 
 /* Functional */
@@ -57,7 +104,7 @@ a {
   text-underline-offset: 0.25em; /* offset hyperlink underlines for better readability */
 }
 
-/* Header */
+/* Site header */
 
 header,
 nav {
@@ -65,7 +112,7 @@ nav {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 66px;
 }
 
 .brand-logo {
@@ -93,6 +140,18 @@ nav a.nav-link:focus {
 
 .navbar-nav {
   text-align: right;
+}
+
+/* Hero section */
+
+.hero-section .lead {
+  color: var(--light-50);
+}
+
+.hero-section .cta-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 /* Footer */
