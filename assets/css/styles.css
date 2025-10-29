@@ -24,7 +24,7 @@
 body {
   font-family: "Source Sans 3", Arial, sans-serif;
   font-weight: 400;
-  color: var(--light-50);
+  color: var(--dark-700);
 }
 
 /* MetaEthics brand styles */
@@ -37,7 +37,7 @@ h5,
 h6 {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 600;
-  color: #1a2e40;
+  color: var(--blue-900);
 }
 
 .navbar-brand,
@@ -55,7 +55,7 @@ nav {
 }
 
 main {
-  margin-top: 56px;
+  margin-top: 100px;
 }
 
 .brand-logo {
@@ -96,4 +96,31 @@ footer p {
   margin: 0;
   opacity: 0.9;
   text-align: center;
+}
+
+/* Sections */
+
+/* Use inverse-style to alternate background and styles for emphasizing a section */
+
+.inverse-style {
+  background-color: #181a1b;
+  color: var(--light-50);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.inverse-style a {
+  color: var(--yellow-400);
+}
+
+.inverse-style h1,
+.inverse-style h2,
+.inverse-style h3,
+.inverse-style h4,
+.inverse-style h5,
+.inverse-style h6 {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 600;
+  color: var(--teal-500);
 }
