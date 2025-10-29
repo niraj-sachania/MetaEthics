@@ -171,6 +171,12 @@ nav a.nav-link:focus {
 
 .navbar-nav {
   text-align: right;
+  font-size: 1.2rem;
+}
+
+ul li::marker,
+il li::marker {
+  color: var(--yellow-400);
 }
 
 /* Hero section */
