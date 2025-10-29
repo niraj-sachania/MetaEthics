@@ -53,6 +53,10 @@ html {
   scroll-padding-top: 80px; /* offset fixed header/nav to scroll the start of the section into view for anchor navigation */
 }
 
+a {
+  text-underline-offset: 0.25em; /* offset hyperlink underlines for better readability */
+}
+
 /* Header */
 
 header,
