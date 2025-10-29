@@ -113,7 +113,13 @@ nav {
 }
 
 main {
-  margin-top: 66px;
+  margin-top: 117px;
+}
+
+@media only screen and (min-width: 263px) {
+  main {
+    margin-top: 66px;
+  }
 }
 
 .brand-logo {
