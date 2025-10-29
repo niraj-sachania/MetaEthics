@@ -28,20 +28,16 @@ body {
 
 /* Custom utility classes */
 
-.img-fade-sides {
-  /* blend the image by fading the right and left edges */
-  mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 20%,
-    black 80%,
+.img-fade-edges {
+  /* blend the image by fading all edges */
+  mask-image: radial-gradient(
+    ellipse 60% 55% at center,
+    black 40%,
     transparent
   );
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent,
-    black 20%,
-    black 80%,
+  -webkit-mask-image: radial-gradient(
+    ellipse 60% 55% at center,
+    black 40%,
     transparent
   );
   margin-left: auto;
