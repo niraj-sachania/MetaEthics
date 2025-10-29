@@ -47,6 +47,12 @@ h6 {
   letter-spacing: 0.5px;
 }
 
+/* Functional */
+
+html {
+  scroll-padding-top: 80px; /* offset fixed header/nav to scroll the start of the section into view for anchor navigation */
+}
+
 /* Header */
 
 header,
