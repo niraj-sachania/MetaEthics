@@ -23,6 +23,7 @@
 body {
   font-family: "Source Sans 3", Arial, sans-serif;
   font-weight: 400;
+  font-size: 1.5rem;
   color: var(--dark-700);
 }
 
