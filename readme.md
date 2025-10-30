@@ -99,25 +99,16 @@ The site is designed to:
 
 The palette blends **deep blues for trust and professionalism**, **teal tones for modernity and calm** and **warm accents to encourage empathy and optimism** – all set on a clean, accessible neutral base.
 
-### Primary Colors
+All colors are defined as CSS variables in `assets/css/styles.css` for consistent theming.
 
-| Color                            | Hex                                                                                                                                                                                                                        | Usage                                  | Rationale                                                             |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------- |
-| **Primary (Trust Blue)**         | <img alt="#1A2E40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%231A2E40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#1A2E40` | Headings, navbar, footer background    | Conveys security and authority; establishes trust and professionalism |
-| **Secondary (Ethical Teal)**     | <img alt="#2CB1A1" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%232CB1A1' stroke='%23000000' stroke-width='0.5'/></svg>"> `#2CB1A1` | Buttons, highlights, link hover states | Symbolizes balance and integrity; adds modern digital aesthetic       |
-| **Accent (Positive Yellow)**     | <img alt="#FFC857" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23FFC857' stroke='%23000000' stroke-width='0.5'/></svg>"> `#FFC857` | CTAs, icons, highlights                | Draws attention without overwhelming; encourages empathy and optimism |
-| **Neutral Light (Off White)**    | <img alt="#F8F9FA" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23F8F9FA' stroke='%23000000' stroke-width='0.5'/></svg>"> `#F8F9FA` | Content backgrounds                    | Maintains contrast and readability; clean and accessible              |
-| **Neutral Dark (Charcoal Grey)** | <img alt="#343A40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23343A40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#343A40` | Body text, inverse backgrounds         | Provides balance with accessibility in mind                           |
-| **Header Background**            | <img alt="#152635" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23152635' stroke='%23000000' stroke-width='0.5'/></svg>"> `#152635` | Navbar contrast                        | Slightly darker than primary to emphasize header                      |
-
-### Support Palette (UI Elements & Gradients)
-
-| Color                    | Hex                                                                                                                                                                                                                        | Usage                                                  |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Info (Digital Blue)**  | <img alt="#007BFF" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23007BFF' stroke='%23000000' stroke-width='0.5'/></svg>"> `#007BFF` | Informational alerts, links, interactive elements      |
-| **Success (Calm Green)** | <img alt="#2ECC71" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%232ECC71' stroke='%23000000' stroke-width='0.5'/></svg>"> `#2ECC71` | Positive messages, validation                          |
-| **Warning (Soft Amber)** | <img alt="#E9A820" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23E9A820' stroke='%23000000' stroke-width='0.5'/></svg>"> `#E9A820` | Subtle caution tones, advisory messages                |
-| **Danger (Ethical Red)** | <img alt="#D9534F" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23D9534F' stroke='%23000000' stroke-width='0.5'/></svg>"> `#D9534F` | Error messages, high-importance alerts (use sparingly) |
+| Color                            | Hex       | CSS Variable | Usage                                  | Rationale                                                             |
+| -------------------------------- | --------- | ------------ | -------------------------------------- | --------------------------------------------------------------------- |
+| **Primary (Trust Blue)**         | 🔷 `#1A2E40` | `--blue-900` | Headings, navbar, footer background    | Conveys security and authority; establishes trust and professionalism |
+| **Secondary (Ethical Teal)**     | 🟦 `#2CB1A1` | `--teal-500` | Buttons, links, highlights, hover states | Symbolizes balance and integrity; adds modern digital aesthetic       |
+| **Accent (Positive Yellow)**     | 🟨 `#FFC857` | `--yellow-400` | CTAs, icons, card borders              | Draws attention without overwhelming; encourages empathy and optimism |
+| **Neutral Light (Off White)**    | ⬜ `#F8F9FA` | `--light-50` | Content backgrounds, navbar text       | Maintains contrast and readability; clean and accessible              |
+| **Neutral Dark (Charcoal Grey)** | ⬛ `#343A40` | `--dark-700` | Body text, inverse section backgrounds | Provides balance with accessibility in mind                           |
+| **Header Background**            | 🔹 `#152635` | (hardcoded)  | Navbar background                      | Slightly darker than primary to emphasize header                      |
 
 ### Accessibility Contrast (WCAG AA/AAA Compliant)
 
@@ -126,11 +117,9 @@ The palette blends **deep blues for trust and professionalism**, **teal tones fo
 - CTA text on `#2CB1A1` or `#FFC857` backgrounds → use `#1A2E40` for readability
 - All combinations meet WCAG AA contrast standards (checked against normal and large text)
 
-### Example Gradient Options
+### Gradients Used
 
-- **Primary Gradient**: `linear-gradient(135deg, #1A2E40, #2CB1A1)` – ideal for hero/section backgrounds
-- **Subtle Overlay**: `rgba(26, 46, 64, 0.85)` over background images for better text legibility
-- **Highlight Gradient**: `linear-gradient(90deg, #2CB1A1, #FFC857)` – ideal for CTA banners or buttons
+- **Hero overlay**: `linear-gradient(#061716d2, #241c0cac)` – dark overlay for text legibility over hero image
 
 ## Typography
 
