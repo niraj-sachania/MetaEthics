@@ -129,6 +129,10 @@ section.content {
   font-size: 1.5rem;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: var(--teal-500);
+}
+
 /* Functional */
 
 html {
