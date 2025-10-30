@@ -95,6 +95,34 @@ The site is designed to:
 - **Favicon**: `assets/images/logo.svg` (SVG, widely supported by modern browsers)
 - **Hero illustration**: `assets/images/hero.svg` – Abstract network/grid visualisation
 
+## Design & Screenshots
+
+### Wireframes
+
+Initial design mockups created with Balsamiq to establish layout and user flow:
+
+**Desktop Wireframe**
+
+![Desktop Wireframe](docs/wireframe-desktop.jpg)
+
+**Mobile Wireframe**
+
+![Mobile Wireframe](docs/wireframe-mobile.jpg)
+
+### Final Design
+
+**Desktop Views**
+
+![Desktop Screenshot 1](docs/final-desktop.jpg)
+
+![Desktop Screenshot 2](docs/final-desktop2.jpg)
+
+**Mobile Views**
+
+![Mobile Screenshot 1](docs/final-mobilemobile.jpg)
+
+![Mobile Screenshot 2](docs/final-mobile2.jpg)
+
 ## Color Palette
 
 The palette blends **deep blues for trust and professionalism**, **teal tones for modernity and calm** and **warm accents to encourage empathy and optimism** – all set on a clean, accessible neutral base.
@@ -209,6 +237,7 @@ User stories were researched and formulated with **ChatGPT** to ensure comprehen
 - **GitHub Pages** – Static site hosting and deployment
 - **GitHub Projects** – Kanban board for project management
 - **Balsamiq** – Wireframing and initial design mockups
+- **Visily** – Final wireframes
 
 ### AI-Assisted Development
 
@@ -225,6 +254,34 @@ User stories were researched and formulated with **ChatGPT** to ensure comprehen
 - **Lighthouse** – Performance, accessibility, best practices and SEO audits
 - **WebAIM WAVE** – Accessibility checker for WCAG compliance
 - **WebAIM Contrast Checker** – [Contrast ratio verification](https://webaim.org/resources/contrastchecker/) for text readability
+
+### Validation Results
+
+**Lighthouse Scores**
+
+Desktop Performance:
+
+![Lighthouse Desktop Results](docs/lighthouse-desktop.png)
+
+Mobile Performance:
+
+![Lighthouse Mobile Results](docs/lighthouse-mobile.png)
+
+**W3C HTML Validation**
+
+✅ **[HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics%2F)** – No errors or warnings
+
+![HTML Validation Results](docs/validate-html.png)
+
+**W3C CSS Validation**
+
+✅ **[CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)** – No errors found
+
+**WebAIM WAVE Accessibility**
+
+✅ **[WAVE Report](https://wave.webaim.org/report#/https://niraj-sachania.github.io/MetaEthics/)** – No errors, AIM score 9.9
+
+![WAVE Accessibility Results](docs/validate-accessibility.jpg)
 
 ### Manual Testing
 
