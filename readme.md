@@ -4,6 +4,7 @@ Educational web project raising awareness about **digital safeguarding**, **ethi
 
 Built with **HTML5**, **CSS3** and **Bootstrap**, the site focuses on **clarity**, **accessibility** and **responsiveness**, aligning with best practices in **UX design** and **web digital ethics**.
 
+🌐 **[Live Site](https://niraj-sachania.github.io/MetaEthics/)** – View the deployed project  
 📋 **[Project Board](https://github.com/users/niraj-sachania/projects/4)** – Track development progress and upcoming features
 
 ## Brand Identity
