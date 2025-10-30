@@ -263,3 +263,8 @@ footer a {
   background-color: transparent;
   color: var(--light-50);
 }
+
+.inverse-style .list-group-item a:hover,
+.inverse-style .list-group-item a:focus {
+  color: var(--teal-500);
+}
