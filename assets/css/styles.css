@@ -240,7 +240,7 @@ footer a {
 
 .inverse-style {
   /* alternate background and styles for emphasizing a section */
-  background-color: #181a1b;
+  background-color: var(--dark-700);
   color: var(--light-50);
 }
 
