@@ -125,6 +125,10 @@ section.content {
   border-color: var(--teal-500);
 }
 
+.accordion button {
+  font-size: 1.5rem;
+}
+
 /* Functional */
 
 html {
