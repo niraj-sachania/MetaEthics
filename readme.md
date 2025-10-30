@@ -2,6 +2,8 @@
 
 Educational web project raising awareness about **digital safeguarding**, **ethical AI use** and **online safety** in immersive and AI‑driven environments. Designed for young people, educators and developers.
 
+📋 **[Project Board](https://github.com/users/niraj-sachania/projects/4)** – Track development progress and upcoming features
+
 ## Features
 
 - **Responsive design** – Mobile-first layout using Bootstrap 5.3.8
