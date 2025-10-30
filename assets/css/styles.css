@@ -163,6 +163,15 @@ main > header {
   color: var(--yellow-400);
 }
 
+a {
+  color: var(--teal-500);
+}
+
+a:hover,
+a:focus {
+  color: var(--dark-700);
+}
+
 nav a.nav-link {
   color: var(--light-50);
 }
