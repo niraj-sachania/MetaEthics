@@ -258,3 +258,8 @@ footer a {
   font-weight: 600;
   color: var(--teal-500);
 }
+
+.inverse-style .list-group-item {
+  background-color: transparent;
+  color: var(--light-50);
+}
