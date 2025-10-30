@@ -2,7 +2,62 @@
 
 Educational web project raising awareness about **digital safeguarding**, **ethical AI use** and **online safety** in immersive and AI‑driven environments. Designed for young people, educators and developers.
 
+Built with **HTML5**, **CSS3** and **Bootstrap**, the site focuses on **clarity**, **accessibility** and **responsiveness**, aligning with best practices in **UX design** and **web digital ethics**.
+
 📋 **[Project Board](https://github.com/users/niraj-sachania/projects/4)** – Track development progress and upcoming features
+
+## Brand Identity
+
+### Core Brand Essence
+
+**Empowering people to navigate virtual and AI-driven worlds safely, responsibly and ethically.**
+
+MetaEthics stands at the intersection of technology, education and ethics — a voice of clarity, trust and empowerment in a fast-changing digital landscape. It isn't alarmist or overly technical; instead, it guides, informs and inspires users to take positive, responsible action online.
+
+### Brand Personality
+
+| Trait | Description | How It Should Feel |
+|-------|-------------|-------------------|
+| **Trustworthy** | Reliable, credible and transparent | Every piece of information is well-sourced, factual and clearly referenced |
+| **Empowering** | Focused on user capability, not fear | Encourages confidence and responsible engagement with technology |
+| **Educational** | Informative but digestible | Uses plain English, visuals and examples to make complex ideas accessible |
+| **Forward-Thinking** | Aware of emerging tech trends | References real-world developments in AI, VR and digital ethics |
+| **Inclusive** | Welcoming to all backgrounds and abilities | Uses accessible language and follows WCAG standards for inclusivity |
+
+### Brand Tone of Voice
+
+| Tone Dimension | Description | Example |
+|----------------|-------------|---------|
+| **Clear** | Avoid jargon and academic complexity. Focus on simple explanations | "Safeguarding means keeping people safe — both offline and online." |
+| **Supportive** | Gentle, empathetic and reassuring | "If you feel unsafe in a virtual space, you're not alone. Here's what you can do." |
+| **Informed** | References credible sources and experts | "According to the UK Safer Internet Centre, most reports involve privacy misuse." |
+| **Positive** | Focus on solutions, not panic | "By understanding these signs, you can make your digital experience safer." |
+| **Conversational** | Friendly, human, not robotic | "Think of the Metaverse as a shared online world — amazing, but with rules." |
+
+### Messaging Pillars
+
+These guide how content should be written and structured across the site:
+
+1. **Educate** — Explain what safeguarding means in the context of AI and virtual spaces  
+   _"Understanding digital safeguarding helps you protect your data and wellbeing."_
+
+2. **Empower** — Provide actionable advice and tools  
+   _"You can take control of your digital footprint with a few simple steps."_
+
+3. **Encourage Responsibility** — Promote ethical behaviour and empathy  
+   _"Every interaction shapes the kind of digital world we live in — make yours positive."_
+
+4. **Connect** — Signpost to reliable organisations and communities  
+   _"Need help? Here's who to contact for immediate support."_
+
+### Emotional Impact Goals
+
+MetaEthics should make the user feel:
+
+- **Informed** — "I understand how to protect myself online."
+- **Empowered** — "I can take steps to stay safe and ethical."
+- **Reassured** — "There's help available if I need it."
+- **Inspired** — "Technology can be safe and positive when used responsibly."
 
 ## Features
 
@@ -21,14 +76,40 @@ Educational web project raising awareness about **digital safeguarding**, **ethi
 
 ## Color Palette
 
-| Color                            | Hex                                                                                                                                                                                                                        | Usage                                  |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **Primary (Trust Blue)**         | <img alt="#1A2E40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%231A2E40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#1A2E40` | Headings, footer background            |
-| **Secondary (Ethical Teal)**     | <img alt="#2CB1A1" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%232CB1A1' stroke='%23000000' stroke-width='0.5'/></svg>"> `#2CB1A1` | Icons, accents, hover states           |
-| **Accent (Positive Yellow)**     | <img alt="#FFC857" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23FFC857' stroke='%23000000' stroke-width='0.5'/></svg>"> `#FFC857` | Primary CTAs, list markers, alerts     |
-| **Neutral Light (Off White)**    | <img alt="#F8F9FA" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23F8F9FA' stroke='%23000000' stroke-width='0.5'/></svg>"> `#F8F9FA` | Background for light sections          |
-| **Neutral Dark (Charcoal Grey)** | <img alt="#343A40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23343A40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#343A40` | Body text, inverse section backgrounds |
-| **Header Background**            | <img alt="#152635" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23152635' stroke='%23000000' stroke-width='0.5'/></svg>"> `#152635` | Navbar contrast                        |
+The palette blends **deep blues for trust and professionalism**, **teal tones for modernity and calm** and **warm accents to encourage empathy and optimism** — all set on a clean, accessible neutral base.
+
+### Primary Colors
+
+| Color | Hex | Usage | Rationale |
+|-------|-----|-------|-----------|
+| **Primary (Trust Blue)** | <img alt="#1A2E40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%231A2E40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#1A2E40` | Headings, navbar, footer background | Conveys security and authority; establishes trust and professionalism |
+| **Secondary (Ethical Teal)** | <img alt="#2CB1A1" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%232CB1A1' stroke='%23000000' stroke-width='0.5'/></svg>"> `#2CB1A1` | Buttons, highlights, link hover states | Symbolizes balance and integrity; adds modern digital aesthetic |
+| **Accent (Positive Yellow)** | <img alt="#FFC857" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23FFC857' stroke='%23000000' stroke-width='0.5'/></svg>"> `#FFC857` | CTAs, icons, highlights | Draws attention without overwhelming; encourages empathy and optimism |
+| **Neutral Light (Off White)** | <img alt="#F8F9FA" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23F8F9FA' stroke='%23000000' stroke-width='0.5'/></svg>"> `#F8F9FA` | Content backgrounds | Maintains contrast and readability; clean and accessible |
+| **Neutral Dark (Charcoal Grey)** | <img alt="#343A40" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23343A40' stroke='%23000000' stroke-width='0.5'/></svg>"> `#343A40` | Body text, inverse backgrounds | Provides balance with accessibility in mind |
+| **Header Background** | <img alt="#152635" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23152635' stroke='%23000000' stroke-width='0.5'/></svg>"> `#152635` | Navbar contrast | Slightly darker than primary to emphasize header |
+
+### Support Palette (UI Elements & Gradients)
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| **Info (Digital Blue)** | <img alt="#007BFF" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23007BFF' stroke='%23000000' stroke-width='0.5'/></svg>"> `#007BFF` | Informational alerts, links, interactive elements |
+| **Success (Calm Green)** | <img alt="#2ECC71" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%232ECC71' stroke='%23000000' stroke-width='0.5'/></svg>"> `#2ECC71` | Positive messages, validation |
+| **Warning (Soft Amber)** | <img alt="#E9A820" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23E9A820' stroke='%23000000' stroke-width='0.5'/></svg>"> `#E9A820` | Subtle caution tones, advisory messages |
+| **Danger (Ethical Red)** | <img alt="#D9534F" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='28' height='18'><rect width='100%' height='100%' fill='%23D9534F' stroke='%23000000' stroke-width='0.5'/></svg>"> `#D9534F` | Error messages, high-importance alerts (use sparingly) |
+
+### Accessibility Contrast (WCAG AA/AAA Compliant)
+
+- Text on `#F8F9FA` background → use `#1A2E40` or `#343A40`
+- Text on `#1A2E40` background → use `#F8F9FA` (or white)
+- CTA text on `#2CB1A1` or `#FFC857` backgrounds → use `#1A2E40` for readability
+- All combinations meet WCAG AA contrast standards (checked against normal and large text)
+
+### Example Gradient Options
+
+- **Primary Gradient**: `linear-gradient(135deg, #1A2E40, #2CB1A1)` — ideal for hero/section backgrounds
+- **Subtle Overlay**: `rgba(26, 46, 64, 0.85)` over background images for better text legibility
+- **Highlight Gradient**: `linear-gradient(90deg, #2CB1A1, #FFC857)` — ideal for CTA banners or buttons
 
 ## Typography
 
