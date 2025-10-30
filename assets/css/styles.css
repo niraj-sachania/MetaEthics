@@ -113,7 +113,15 @@ section.content {
   color: var(--teal-500);
 }
 
+.fa-solid {
+  color: var(--yellow-400);
+}
+
 .card {
+  border-color: var(--yellow-400);
+}
+
+.card.secondary {
   border-color: var(--teal-500);
 }
 
