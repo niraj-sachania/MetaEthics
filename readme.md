@@ -101,8 +101,8 @@ The palette blends **deep blues for trust and professionalism**, **teal tones fo
 
 All colors are defined as CSS variables in `assets/css/styles.css` for consistent theming.
 
-| Color                            | Hex          | CSS Variable   | Usage                                    | Rationale                                                             |
-| -------------------------------- | ------------ | -------------- | ---------------------------------------- | --------------------------------------------------------------------- |
+| Color                            | Hex                                         | CSS Variable   | Usage                                    | Rationale                                                             |
+| -------------------------------- | ------------------------------------------- | -------------- | ---------------------------------------- | --------------------------------------------------------------------- |
 | **Primary (Trust Blue)**         | ![#1A2E40](docs/color-1a2e40.svg) `#1A2E40` | `--blue-900`   | Headings, navbar, footer background      | Conveys security and authority; establishes trust and professionalism |
 | **Secondary (Ethical Teal)**     | ![#2CB1A1](docs/color-2cb1a1.svg) `#2CB1A1` | `--teal-500`   | Buttons, links, highlights, hover states | Symbolizes balance and integrity; adds modern digital aesthetic       |
 | **Accent (Positive Yellow)**     | ![#FFC857](docs/color-ffc857.svg) `#FFC857` | `--yellow-400` | CTAs, icons, card borders                | Draws attention without overwhelming; encourages empathy and optimism |
