@@ -129,6 +129,11 @@ section.content {
   color: var(--light-50);
 }
 
+.icon-link {
+  text-underline-offset: 0.6rem;
+  text-decoration-color: inherit;
+}
+
 /* Functional */
 
 html {
@@ -136,7 +141,7 @@ html {
 }
 
 a {
-  text-underline-offset: 0.25em; /* offset hyperlink underlines for better readability */
+  text-underline-offset: 0.25rem; /* offset hyperlink underlines for better readability */
 }
 
 /* Site header */
