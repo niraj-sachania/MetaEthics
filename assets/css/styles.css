@@ -49,15 +49,6 @@ body {
   display: block;
 }
 
-ul.unformatted {
-  /* list without default padding and bullet points */
-  padding-left: 0;
-}
-
-ul.unformatted > li {
-  list-style: none;
-}
-
 /* MetaEthics brand styles */
 
 h1 {
