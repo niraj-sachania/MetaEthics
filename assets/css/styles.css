@@ -82,6 +82,7 @@ section.content {
   letter-spacing: 0.5px;
   border: none;
   box-shadow: var(--shadow-sm);
+  transition: filter 0.3s ease;
 }
 
 .btn-primary,
@@ -89,14 +90,12 @@ section.content {
 .btn-primary:focus {
   background-color: var(--yellow-400);
   color: var(--dark-700);
-  transition: filter 0.3s ease;
 }
 
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
   background-color: var(--teal-dark);
-  transition: filter 0.3s ease;
 }
 
 .btn-primary:hover,
