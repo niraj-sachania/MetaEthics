@@ -162,7 +162,7 @@ main {
 
 main > header {
   background-image: linear-gradient(#061716d2, #241c0cac),
-    url("assets/images/hero.svg");
+     url("../../assets/images/hero.svg");;
   background-size: cover;
   background-position: right;
 }
