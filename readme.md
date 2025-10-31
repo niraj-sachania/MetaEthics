@@ -99,7 +99,7 @@ The site is designed to:
 
 ### Wireframes
 
-Initial design mockups created with Balsamiq to establish layout and user flow:
+Initial design mockups created with Balsamiq and Visily to establish layout and user flow:
 
 **Desktop Wireframe**
 
