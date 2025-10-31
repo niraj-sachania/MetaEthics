@@ -64,12 +64,12 @@ MetaEthics should make the user feel:
 
 MetaEthics serves multiple user groups, each with distinct needs and expectations. See the **[Project Board](https://github.com/users/niraj-sachania/projects/4)** for detailed user stories.
 
-| Audience Group                              | Why They're Relevant                                                                                               | Their Needs                                                                                                                                                                                                 | Design Implications                                         |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| **General Internet Users** (Teens & Adults) | Increasingly interact with AI-driven tools and virtual spaces like the Metaverse, VR platforms and immersive games | • Simple explanations of safeguarding risks (AI misinformation, digital identity theft)<br>• Practical privacy and wellbeing protection steps<br>• Accessible, jargon-free language with relatable examples | Simple navigation, plain English, responsive layout         |
-| **Educators, Parents & Youth Workers**      | Act as digital guardians helping young people navigate online spaces safely                                        | • Clear guidance on identifying safeguarding concerns<br>• Reliable resources and reporting contacts<br>• Educational language suitable for sharing or teaching                                             | Structured sections, clear action steps, credible resources |
-| **Students & Young People** (Ages 13–25)    | Early adopters of new tech (VR chatrooms, AI companions) facing unique online safety challenges                    | • Interactive, engaging mobile-friendly layout<br>• Visual cues and short, clear sections<br>• Awareness of personal data, consent and respectful digital behavior                                          | Visual appeal, mobile-first design, relatable tone          |
-| **Digital Professionals & Developers**      | Design or moderate digital environments; need to understand safeguarding implications                              | • Insight into ethical design and responsible AI use<br>• Best practices and frameworks references<br>• Accessibility and inclusion standards (WCAG, data ethics)                                           | Ethical & technical insights, brief professional tone       |
+| Audience Group                                | Why They're Relevant                                                                                               | Their Needs                                                                                                                                                                                                 | Design Implications                                         |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **General Internet Users** (Teens and Adults) | Increasingly interact with AI-driven tools and virtual spaces like the Metaverse, VR platforms and immersive games | • Simple explanations of safeguarding risks (AI misinformation, digital identity theft)<br>• Practical privacy and wellbeing protection steps<br>• Accessible, jargon-free language with relatable examples | Simple navigation, plain English, responsive layout         |
+| **Educators, Parents and Youth Workers**      | Act as digital guardians helping young people navigate online spaces safely                                        | • Clear guidance on identifying safeguarding concerns<br>• Reliable resources and reporting contacts<br>• Educational language suitable for sharing or teaching                                             | Structured sections, clear action steps, credible resources |
+| **Students and Young People** (Ages 13–25)    | Early adopters of new tech (VR chatrooms, AI companions) facing unique online safety challenges                    | • Interactive, engaging mobile-friendly layout<br>• Visual cues and short, clear sections<br>• Awareness of personal data, consent and respectful digital behavior                                          | Visual appeal, mobile-first design, relatable tone          |
+| **Digital Professionals and Developers**      | Design or moderate digital environments; need to understand safeguarding implications                              | • Insight into ethical design and responsible AI use<br>• Best practices and frameworks references<br>• Accessibility and inclusion standards (WCAG, data ethics)                                           | Ethical and technical insights, brief professional tone     |
 
 ### Design Principles for Audience
 
@@ -95,7 +95,7 @@ The site is designed to:
 - **Favicon**: `assets/images/logo.svg` (SVG, widely supported by modern browsers)
 - **Hero illustration**: `assets/images/hero.svg` – Abstract network/grid visualisation
 
-## Design & Screenshots
+## Design and Screenshots
 
 ### Wireframes
 
@@ -163,8 +163,8 @@ All colors are defined as CSS variables in `assets/css/styles.css` for consisten
 4. **Safeguarding** – Educational content about digital safety in the metaverse
 5. **Signs to Watch For** – Grid of warning sign cards with icons
 6. **Action Steps** – Accordion with 5-step response plan
-7. **Contact & Support** – List of UK safeguarding organizations (inverse style)
-8. **Developers & Guardians** – Three-column card layout with implementation notes
+7. **Contact and Support** – List of UK safeguarding organisations (inverse style)
+8. **Developers and Guardians** – Three-column card layout with implementation notes
 9. **Footer** – Copyright and author attribution
 
 ## Technical Details
@@ -210,7 +210,7 @@ This project follows **Agile** principles with a **Kanban** workflow for continu
 ### Approach
 
 - **Kanban board** – GitHub Projects for visual task management and progress tracking
-- **MoSCoW prioritization** – Features categorized as Must have, Should have, Could have, Won't have
+- **MoSCoW prioritisation** – Features categorized as Must have, Should have, Could have, Won't have
 - **Incremental commits** – Small, focused commits with descriptive messages for clear version history
 - **Conventional commits** – Standardized commit format (feat, fix, docs, style, refactor, test, chore) for automated changelog generation
 - **Clean code** – Readable, maintainable code with consistent formatting and semantic naming
@@ -220,7 +220,7 @@ This project follows **Agile** principles with a **Kanban** workflow for continu
 
 User stories were researched and formulated with **ChatGPT** to ensure comprehensive coverage of audience needs. See the **[Project Board](https://github.com/users/niraj-sachania/projects/4)** for detailed epics and user stories.
 
-## Tools & Technologies
+## Tools and Technologies
 
 ### Core Technologies
 
@@ -245,7 +245,44 @@ User stories were researched and formulated with **ChatGPT** to ensure comprehen
 - **GitHub Copilot** – Code completion, formatting repetitive Bootstrap card structures, searching Bootstrap documentation, code review suggestions
 - **Claude Sonnet** – Generated mask-image CSS for fading hero image edges
 
-## Testing & Validation
+### AI Impact on Development
+
+**Code Generation and Key Decisions**
+
+AI tools significantly accelerated development by generating boilerplate code and suggesting semantic HTML structures. GitHub Copilot proved particularly valuable for creating repetitive Bootstrap card components in the "Signs to Watch For" section, maintaining consistency across all six warning cards.
+
+When trying to add Bootstrap components with AI, it was notable that often the code was more bloated or over-engineered (e.g. by adding more divs instead of incorporating the Bootstrap classes into existing sections or lists). Therefore, AI was used more for identifying potential components and formatting subsequent components by supplying an example.
+
+At times, a custom solution was chosen over AI's suggested solutions based on the context of the project and intended outcome. For example, WAVE accessibility scanner indicated that text styled like a heading should use proper heading elements (<h1> to <h6>) instead of plain text for the contact and support descriptions that were initially contained in paragraphs. Co-Pilot suggested switching to description list (`<dl>`, `<dt>`, `<dd>`) structure. The preference was continue using Bootstrap's list group for the styling, intead of adding custom styling. The decision was made to switch the descriptions from paragraphs to spans, which is a valid solution that alleviated the accessibility warnings.
+
+**Bug Detection and Resolution**
+
+AI assisted in identifying and resolving several accessibility and UX issues:
+
+- **Fixed header overlap** – AI suggested adding `scroll-padding-top: 80px` to prevent anchor links from hiding content under the fixed navbar
+- **Mobile navigation persistence** – Copilot provided the JavaScript solution using Bootstrap's Collapse API to auto-close the mobile menu when anchor links are clicked
+- **Git push failures caused by large image files** – AI helped diagnose a failing `git push` by pointing out very large PNG screenshots in the working tree and recommending an image optimisation and history-cleanup workflow. Actions taken included converting and resising screenshots (macOS `sips`), removing large files from the index, re-committing the optimised assets and increasing Git's HTTP post buffer; the subsequent push completed successfully. This workflow reduced repository size and avoided future transport errors (or can use Git LFS for persistent large binaries).
+
+**Performance and UX Improvements**
+
+AI contributed to several performance optimisations:
+
+- **CSS mask-image gradient** – Claude Sonnet generated the radial gradient code for smoothly fading the hero image edges, eliminating the need for pre-processed image assets
+- **Image optimisation workflow** – AI suggested using macOS `sips` tool to convert large PNG screenshots (5MB+) to optimized JPEGs (136KB–560KB), reducing repository size by ~85%
+- **Accessibility enhancements** – Copilot recommended adding `rel="noopener noreferrer"` to all external links and suggested ARIA labels for PDF links, improving both security and screen reader accessibility
+
+**Workflow Efficiency**
+
+AI integration streamlined the development process by:
+
+- Reducing repetitive coding time by ~40% through intelligent code completion
+- Accelerating research for user stories and accessibility best practices
+- Providing instant Bootstrap documentation references without context switching
+- Suggesting conventional commit message formats for consistent version control
+
+The key outcome was maintaining code quality and accessibility standards while significantly reducing development time, allowing more focus on content strategy and user experience design.
+
+## Testing and Validation
 
 ### Automated Testing
 
@@ -269,17 +306,17 @@ Mobile Performance:
 
 **W3C HTML Validation**
 
-✅ **[HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics%2F)** – No errors or warnings
+✓ **[HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics%2F)** – No errors or warnings
 
 ![HTML Validation Results](docs/validate-html.png)
 
 **W3C CSS Validation**
 
-✅ **[CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)** – No errors found
+✓ **[CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fniraj-sachania.github.io%2FMetaEthics&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)** – No errors found
 
 **WebAIM WAVE Accessibility**
 
-✅ **[WAVE Report](https://wave.webaim.org/report#/https://niraj-sachania.github.io/MetaEthics/)** – No errors, AIM score 9.9
+✓ **[WAVE Report](https://wave.webaim.org/report#/https://niraj-sachania.github.io/MetaEthics/)** – No errors, AIM score 9.9
 
 ![WAVE Accessibility Results](docs/validate-accessibility.jpg)
 
@@ -332,6 +369,70 @@ MetaEthics/
         ├── favicon.svg
         └── hero.svg
 ```
+
+## Development, version control and deployment process
+
+This project was developed with a straightforward git workflow and is deployed via GitHub Pages.
+
+- Created repository and cloned locally via VS Code
+- Created a feature/work branch (`working`) for iterative work
+- Developed locally using VS Code with helpful extensions (Prettier for formatting and Live Server for preview)
+- Committed small increments (used GitHub Copilot to assist with commit messages)
+- Merged completed changes to the `main` branch and pushed to the remote (`origin`)
+
+Quick git commands used during the workflow:
+
+```bash
+# stage and commit
+git add .
+git commit -m "[commit-message]"
+
+# push main branch
+git push
+```
+
+```bash
+# switch branches
+# create and switch to a new feature branch
+git checkout -b feature/my-feature
+# switch to an existing branch
+git checkout main
+
+# merge branches
+# merge feature branch into main (run these from `main`)
+git checkout main
+git pull origin main
+git merge --no-ff feature/my-feature
+
+# cleanup feature branches
+# delete local feature branch after a successful merge
+git branch -d feature/my-feature
+# delete the remote feature branch (after pushing and confirming merge)
+git push origin --delete feature/my-feature
+
+# push current branch (or push specific branch)
+git push
+git push origin main
+```
+
+### GitHub Pages – deployment steps
+
+1. Open repository on GitHub and go to **Settings → Pages**
+2. Under "Build and deployment" set **Source** to **Deploy from a branch**
+3. Choose **Branch: main** and **Folder: /** (root)
+4. Click **Save**.
+
+Notes and troubleshooting
+
+- If the push fails with large-file or HTTP buffer errors, optimise images before committing or use **Git LFS** for binary assets.
+- For cache-related visual issues after deploy, append a cache-busting query (e.g., `?v=2`) or clear your browser cache.
+- You can use the GitHub CLI (`gh`) to open the repo settings or inspect Pages status:
+
+```bash
+gh repo view --web
+```
+
+The live site for this project is published at the GitHub Pages URL shown in the repo's Pages settings (also accessible via the GitHub Project's dashboard on the right).
 
 ## Attributions
 
