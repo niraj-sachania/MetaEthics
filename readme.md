@@ -7,6 +7,51 @@ Built with **HTML5**, **CSS3** and **Bootstrap**, the site focuses on **clarity*
 🌐 **[Live Site](https://niraj-sachania.github.io/MetaEthics/)** – View the deployed project  
 📋 **[Project Board](https://github.com/users/niraj-sachania/projects/4)** – Track development progress and upcoming features
 
+## Table of Contents
+
+- [Brand Identity](#brand-identity)
+  - [Core Brand Essence](#core-brand-essence)
+  - [Brand Personality](#brand-personality)
+  - [Brand Tone of Voice](#brand-tone-of-voice)
+  - [Messaging Pillars](#messaging-pillars)
+  - [Emotional Impact Goals](#emotional-impact-goals)
+- [Target Audience](#target-audience)
+  - [Design Principles for Audience](#design-principles-for-audience)
+- [Features](#features)
+- [Brand Assets](#brand-assets)
+- [Design and Screenshots](#design-and-screenshots)
+  - [Wireframes](#wireframes)
+  - [Final Design](#final-design)
+- [Color Palette](#color-palette)
+  - [Accessibility Contrast (WCAG AA/AAA Compliant)](#accessibility-contrast-wcag-aaaaa-compliant)
+  - [Gradients Used](#gradients-used)
+- [Typography](#typography)
+- [Page Structure](#page-structure)
+- [Technical Details](#technical-details)
+  - [Dependencies](#dependencies)
+  - [CSS Variables](#css-variables)
+  - [JavaScript Features](#javascript-features)
+  - [Accessibility](#accessibility)
+- [Development Methodology](#development-methodology)
+  - [Approach](#approach)
+  - [User Stories](#user-stories)
+- [Tools and Technologies](#tools-and-technologies)
+  - [Core Technologies](#core-technologies)
+  - [Development Tools](#development-tools)
+  - [AI-Assisted Development](#ai-assisted-development)
+  - [AI Impact on Development](#ai-impact-on-development)
+- [Testing and Validation](#testing-and-validation)
+  - [Automated Testing](#automated-testing)
+  - [Validation Results](#validation-results)
+  - [Manual Testing](#manual-testing)
+  - [Accessibility Standards](#accessibility-standards)
+- [Local Development](#local-development)
+- [File Structure](#file-structure)
+- [Development, version control and deployment process](#development-version-control-and-deployment-process)
+  - [GitHub Pages – deployment steps](#github-pages--deployment-steps)
+- [Attributions](#attributions)
+- [Credits](#credits)
+
 ## Brand Identity
 
 ### Core Brand Essence
