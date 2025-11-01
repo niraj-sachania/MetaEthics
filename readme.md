@@ -144,15 +144,11 @@ The site is designed to:
 
 ### Wireframes
 
-Initial design mockups created with Balsamiq and Visily to establish layout and user flow:
+Initial design mockups created with Balsamiq to establish layout and user flow:
 
-**Desktop Wireframe**
+**Mobile and Desktop Wireframes**
 
-![Desktop Wireframe](docs/wireframe-desktop.jpg)
-
-**Mobile Wireframe**
-
-![Mobile Wireframe](docs/wireframe-mobile.jpg)
+![Desktop Wireframe](docs/wireframes.png)
 
 ### Final Design
 
@@ -282,7 +278,6 @@ User stories were researched and formulated with **ChatGPT** to ensure comprehen
 - **GitHub Pages** – Static site hosting and deployment
 - **GitHub Projects** – Kanban board for project management
 - **Balsamiq** – Wireframing and initial design mockups
-- **Visily** – Final wireframes
 
 ### AI-Assisted Development
 
