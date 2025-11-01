@@ -261,6 +261,8 @@ This project follows **Agile** principles with a **Kanban** workflow for continu
 
 User stories were researched and formulated with **ChatGPT** to ensure comprehensive coverage of audience needs. See the **[Project Board](https://github.com/users/niraj-sachania/projects/4)** for detailed epics and user stories.
 
+![Project Board](docs/project-board.png)
+
 ## Tools and Technologies
 
 ### Core Technologies
