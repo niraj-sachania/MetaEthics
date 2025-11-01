@@ -378,6 +378,14 @@ Mobile Performance:
 
 ## Local Development
 
+Clone the repository and navigate to the project folder:
+
+```bash
+git clone https://github.com/niraj-sachania/MetaEthics.git
+
+cd MetaEthics
+```
+
 Open `index.html` directly in a browser or use a local server:
 
 ```bash
