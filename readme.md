@@ -484,6 +484,8 @@ gh repo view --web
 
 The live site for this project is published at the GitHub Pages URL shown in the repo's Pages settings (also accessible via the GitHub Project's dashboard on the right).
 
+🌐 **[View Live Site](https://niraj-sachania.github.io/MetaEthics/)**
+
 ## Attributions
 
 - **Brand assets** – Created logo and hero background image with DALL-E
