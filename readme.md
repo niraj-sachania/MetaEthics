@@ -182,7 +182,7 @@ The responsive views are showcased at the start of this file. Following are the 
 
 <details>
 
-<summary>Table portrait (click)</summary>
+<summary>Tablet landscape (click)</summary>
 
 ![Tablet landscape screenshot](docs/final-tablet-landscape.png)
 
