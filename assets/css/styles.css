@@ -144,6 +144,10 @@ section.content {
   text-decoration-color: inherit;
 }
 
+.card .card-title {
+  font-size: 1.3rem;
+}
+
 /* Functional */
 
 html {
@@ -301,6 +305,10 @@ footer a {
   }
 
   h3 {
+    font-size: 1.75rem;
+  }
+
+  .card .card-title {
     font-size: 1.75rem;
   }
 
