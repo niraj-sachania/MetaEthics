@@ -87,15 +87,18 @@ section.content {
 
 .btn-primary,
 .btn-primary:hover,
-.btn-primary:focus {
-  background-color: var(--yellow-400);
-  color: var(--dark-700);
+.btn-primary:focus,
+.btn-secondary:active {
+  background-color: var(--yellow-400) !important;
+  color: var(--dark-700) !important;
 }
 
 .btn-secondary,
 .btn-secondary:hover,
-.btn-secondary:focus {
-  background-color: var(--teal-dark);
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: var(--teal-dark) !important;
+  color: var(--light-50) !important;
 }
 
 .btn-primary:hover,
