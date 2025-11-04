@@ -245,6 +245,12 @@ footer a {
   color: var(--yellow-400);
 }
 
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: var(--teal-500);
+}
+
 /* Sections */
 
 .inverse-style {
