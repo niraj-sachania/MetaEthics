@@ -20,7 +20,8 @@
 /* Global resets */
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
 }
 
@@ -78,7 +79,8 @@ h3 {
 section.content {
   /* styling for the main content of the page */
   border-radius: 6px;
-  box-shadow: var(--shadow-md);
+  -webkit-box-shadow: var(--shadow-md);
+          box-shadow: var(--shadow-md);
   padding: 1.25rem;
   margin-bottom: 1.25rem;
 }
@@ -89,8 +91,13 @@ section.content {
   font-weight: 700;
   letter-spacing: 0.5px;
   border: none;
-  box-shadow: var(--shadow-sm);
+  -webkit-box-shadow: var(--shadow-sm);
+          box-shadow: var(--shadow-sm);
+  -webkit-transition: -webkit-filter 0.3s ease;
+  transition: -webkit-filter 0.3s ease;
+  -o-transition: filter 0.3s ease;
   transition: filter 0.3s ease;
+  transition: filter 0.3s ease, -webkit-filter 0.3s ease;
 }
 
 .btn-primary,
@@ -111,7 +118,8 @@ section.content {
 
 .btn-primary:hover,
 .btn-secondary:hover {
-  filter: brightness(0.85);
+  -webkit-filter: brightness(0.85);
+          filter: brightness(0.85);
 }
 
 .fa-regular {
@@ -141,7 +149,8 @@ section.content {
 
 .icon-link {
   text-underline-offset: 0.6rem;
-  text-decoration-color: inherit;
+  -webkit-text-decoration-color: inherit;
+          text-decoration-color: inherit;
 }
 
 #signs .card .card-title, .accordion button {
@@ -170,6 +179,10 @@ main {
 }
 
 main > header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#061716d2), to(#241c0cac)),
+     url("../../assets/images/hero.svg");
+  background-image: -o-linear-gradient(#061716d2, #241c0cac),
+     url("../../assets/images/hero.svg");
   background-image: linear-gradient(#061716d2, #241c0cac),
      url("../../assets/images/hero.svg");;
   background-size: cover;
@@ -228,9 +241,12 @@ ol li::marker {
 }
 
 .hero-section .cta-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 0.75rem;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /* Footer */
